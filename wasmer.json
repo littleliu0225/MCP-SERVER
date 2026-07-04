@@ -1,0 +1,13 @@
+{
+  "module": "main",
+  "function": "app",
+  "runtime": "python-wasix",
+  "http": {
+    "expose": true,
+    "cors": true
+  },
+  "env": {
+    "pythonunbuffered": "1",
+    "wasix_dl": "0"
+  }
+}
